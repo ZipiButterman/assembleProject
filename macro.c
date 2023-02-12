@@ -8,9 +8,9 @@ f: the sorce file - to span it.
 f_am: the target file - to print after the spaning.
 variables:
 flagPrint: sign if to print the currenf line (the lines that don't have to be printed are: "macro", "endm", and line that calls to macro).
-macroFlag: sign if the current ine is inside "macro".
+macroFlag: sign if the current line is inside "macro".
 macroCounter: sign the number of the current macro line (the maximum number of the lines is 6)
-lineCounter: sign the end number of lunes in the current macro.
+lineCounter: sign the end number of lines in the current macro.
 endm: sign that the macro is finish.
 call: sign that this line calls to a macro, if so - don't print the current line, print instead the macro that in the macro list.
 empty: counts the empty lines.
